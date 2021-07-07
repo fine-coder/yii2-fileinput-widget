@@ -1,0 +1,73 @@
+.documents-form {
+    margin-top: 18px;
+}
+
+/*
+.documents-form .row {
+    margin-bottom: 14px;
+}
+*/
+
+.documents-form .form-group {
+    margin-bottom: 24px;
+}
+
+.documents-form .theme-explorer .file-preview-frame {
+    display: table;
+    position: relative;
+}
+
+.documents-form .theme-explorer .file-preview-frame > div {
+    display: table-cell;
+}
+
+.documents-form .theme-explorer .explorer-frame .kv-file-content {
+    vertical-align: top;
+    font-size: 0;
+}
+
+.documents-form .theme-explorer .explorer-frame .file-other-icon {
+    font-size: 54px;
+}
+
+.documents-form .theme-explorer .file-preview-frame .file-caption-info {
+    padding: 10px 10px 5px 0;
+}
+
+.documents-form .theme-explorer .file-preview-frame .file-caption-info input {
+    text-align: left;
+}
+
+.documents-form .theme-explorer .file-thumbnail-footer .file-actions {
+    width: calc(100% - 30px);
+}
+
+.documents-form .theme-explorer .file-drag-handle {
+    bottom: 14px;
+    right: 10px;
+}
+
+.documents-form .theme-explorer .file-upload-indicator,
+.documents-form .theme-explorer .file-drag-handle {
+    bottom: 14px;
+    right: 10px;
+}
+
+.documents-form .progress {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.documents-form .redactor-box {
+    margin-bottom: 0;
+}
+
+.documents-form .col-lg-6 {
+    margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 575px) {
+    .documents-form .theme-explorer .file-preview-frame .kv-file-content {
+        width: unset;
+    }
+}
